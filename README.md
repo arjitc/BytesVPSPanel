@@ -7,6 +7,10 @@ Created at the inGenious Hackathon 2013 by Abhishek M, Harsha and me
 
 PHP based Panel to manage and create OpenVZ instances.
 
+Notes
+======
+> Place "views" folder inside /var/www and the rest of the files in /var/www/html
+
 Requirements
 ======
 
