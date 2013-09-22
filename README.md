@@ -10,10 +10,10 @@ PHP based Panel to manage and create OpenVZ instances.
 Requirements
 ======
 
--> CentOS 6
+> CentOS 6
 
--> OpenVZ installed (http://openvz.org/Quick_installation)
+> OpenVZ installed (http://openvz.org/Quick_installation)
 
--> Cherokee Webserver (http://www.how2centos.com/installing-cherokee-on-centos-5-5/) < Will work on Cent6 as well
+> Cherokee Webserver (http://www.how2centos.com/installing-cherokee-on-centos-5-5/) < Will work on Cent6 as well
 
--> PHP (yum install php)
+> PHP (yum install php)
