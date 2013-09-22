@@ -1,11 +1,11 @@
 BytesVPSPanel
 =============
 
-Bytes VPS Panel - VPS panel for OpenVZ
+> Bytes VPS Panel - VPS panel for OpenVZ
 
-Created at the inGenious Hackathon 2013 by Abhishek M, Harsha and me
+> Created at the inGenious Hackathon 2013 by Abhishek M, Harsha and me
 
-PHP based Panel to manage and create OpenVZ instances.
+> PHP based Panel to manage and create OpenVZ instances.
 
 Notes
 ======
