@@ -11,6 +11,9 @@ Requirements
 ======
 
 -> CentOS 6
+
 -> OpenVZ installed (http://openvz.org/Quick_installation)
+
 -> Cherokee Webserver (http://www.how2centos.com/installing-cherokee-on-centos-5-5/) < Will work on Cent6 as well
+
 -> PHP (yum install php)
