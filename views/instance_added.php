@@ -3,11 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
-
-    <title>Static Top Navbar Example for Bootstrap</title>
+    
+    <title>Instance added</title>
 
     <!-- Bootstrap core CSS -->
     <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet">
@@ -91,6 +88,7 @@ VALUES (
   echo "Password : $randompassword <br>";
   echo "SSH Port : 22";
   echo "</div>";  
+  //lets create the VPS
   exec("/usr/sbin/vzctl create $vmid --ostemplate $os");
   exec("/usr/sbin/vzctl set $vmid --nameserver 8.8.8.8 --save"); 
   exec("/usr/sbin/vzctl set $vmid --ipadd  $ipaddress --save"); 
@@ -100,6 +98,7 @@ VALUES (
   exec("/usr/sbin/vzctl set $vmid  --hostname $hostname --save"); 
   exec("/usr/sbin/vzctl set $vmid  --cpus $cores --save"); 
   exec("/usr/sbin/vzctl start $vmid");  
+  //delete the IP address from the IP pool
   mysqli_query($con,"DELETE FROM ipaddr WHERE ipaddr='$ipaddress'");
 }
   mysqli_close($con);   
